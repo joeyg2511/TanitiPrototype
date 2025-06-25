@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #cddc39;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc107;
+    color: white;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    gap: 3rem;
+
+}
+
+.logo {
+    background-color: #ffc107;
+    font-size: 2rem;
+
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    background-color: #ffc107;
+}
+
+.nav-links li {
+    margin: 0 .5rem;
+    background-color: #ffc107;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #ffc107;
+}
