@@ -92,16 +92,6 @@ button.next-image {
   right: 10px;
 }
 
-.taniti-summary {
-  display: flex;
-  justify-content: center; /* horizontal centering */
-  text-align: center;
-}
-
-.taniti-summary p {
-  width: 75%;
-}
-
 .booking-options {
   display: flex;
   justify-content: center;
@@ -179,6 +169,7 @@ button.next-image {
   display: flex;
   justify-content: center;
   gap: 10rem;
+  padding: 2rem;
 }
 
 #flights-page-button button {
@@ -198,7 +189,7 @@ button.next-image {
 .site-footer {
   background-color: #005b77;
   color: white;
-  padding: 2rem 1rem;
+  padding: 1rem 0.5rem;
   text-align: center;
 }
 
@@ -235,4 +226,25 @@ button.next-image {
   font-size: 0.9rem;
   margin-top: 1rem;
   color: #d1f3f7;
+}
+
+.island-info {
+    list-style-type: square;
+    padding-left: 2rem;
+    margin: 2rem;
+    color: #003b5c;
+
+}
+
+.island-info h1,
+.island-info h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.island-info p,
+.island-info ul {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  max-width: 800px;
 }
